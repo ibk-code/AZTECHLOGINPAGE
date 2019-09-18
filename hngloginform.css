@@ -1,0 +1,44 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	padding:0;
+	margin:0;
+	background-image: url(https://res.cloudinary.com/frankm7/image/upload/v1568714203/logobg1_ws1xqc.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+
+.loginbx{
+	left: 100%;
+	margin-top: ;
+	position: relative;
+	box-sizing: border-box;
+	border: 1px solid black;
+	background-color: grey;
+	margin: 100px 0px 300px 0px;
+	padding: 40px;
+};
+
+input[type="email"],
+input[type="password"]
+{
+	border: none;
+	border-bottom: 0.5px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
