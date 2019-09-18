@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+html{
+	font-size: 80%;
+	height: 100%;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: linear-gradient(rgba(5, 8, 9, 0.85),rgba(5, 8, 9, 0.85)), url(./img/login-bg.jpg);
+	font-size: 100%;
+	font-family: 'Poppins', sans-serif;
+}
+.affirm{
+	word-spacing: 7px;
+}
+.sign__up form{
+	max-width: 40%;
+}
+.sign__up label{
+	color: white;
+    font-size: 1.5rem;
+}
+.sign__up--btn{
+	color: white;
+    background: rgba(126, 234, 136, 0.7);
+    width: 100%;
+    font-size: 1.5rem;
+}
+.sign__up--btn:hover{
+	color: #ffffff;
+}
+.sign__up--btn-small{
+	color: white;
+    background: rgba(126, 234, 136, 0.7);
+    /* width: 100%; */
+    font-size: 1.4rem;
+    padding: 2px 16px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.login__text{
+	 color: white;
+    font-size: 1.3rem;
+}
+a{
+	text-decoration: none;
+}
+button,a:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
+@media (max-width: 762px){
+	.sign__up form{
+		max-width: 70%;
+	}
+}
+@media (max-width: 425px){
+	.sign__up form{
+		max-width: 100%;
+	}
+}
